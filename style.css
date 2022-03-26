@@ -1,0 +1,126 @@
+* .container-fluid {
+  width: 100vw;
+  height: 100vh;
+  background: url(wp.jpg);
+}
+* .container-fluid .main {
+  width: 100vw;
+  height: 100vh;
+}
+* .container-fluid .main .form {
+  height: 92%;
+  margin-top: 2% !important;
+  background-color: white;
+}
+* .container-fluid .main .form .row {
+  text-align: center;
+  align-items: center;
+}
+* .container-fluid .main .form .row1 {
+  height: 12%;
+}
+* .container-fluid .main .form .row1 h1 {
+  font-size: 24px;
+}
+* .container-fluid .main .form .row2 {
+  height: 8%;
+}
+* .container-fluid .main .form .row2 h3 {
+  font-size: 20px;
+}
+* .container-fluid .main .form .row3 {
+  --color: #1aa0b9;
+}
+* .container-fluid .main .form .row4,
+* .container-fluid .main .form .row10 {
+  --color: #007bff;
+}
+* .container-fluid .main .form .row3,
+* .container-fluid .main .form .row4,
+* .container-fluid .main .form .row10 {
+  height: 10%;
+}
+* .container-fluid .main .form .row3 button,
+* .container-fluid .main .form .row4 button,
+* .container-fluid .main .form .row10 button {
+  border-radius: 5px;
+  border: 2px solid transparent;
+  height: 80%;
+  margin-left: 20% !important;
+  background-color: var(--color);
+  width: 60%;
+  font-size: 18px;
+  transition: 0.6s;
+  color: white;
+  font-weight: 400;
+}
+* .container-fluid .main .form .row3 button:hover,
+* .container-fluid .main .form .row4 button:hover,
+* .container-fluid .main .form .row10 button:hover {
+  transform: scale(1.1);
+  letter-spacing: 1.4px;
+  background-color: white;
+  color: var(--color);
+  border: 2px solid var(--color);
+}
+* .container-fluid .main .form .row5 {
+  height: 10%;
+}
+* .container-fluid .main .form .row5 h2 {
+  font-size: 20px;
+}
+* .container-fluid .main .form .row6,
+* .container-fluid .main .form .row7,
+* .container-fluid .main .form .row8,
+* .container-fluid .main .form .row9 {
+  display: flex;
+  flex-direction: row;
+  height: 8%;
+}
+* .container-fluid .main .form .row6 .ikonka,
+* .container-fluid .main .form .row7 .ikonka,
+* .container-fluid .main .form .row8 .ikonka,
+* .container-fluid .main .form .row9 .ikonka {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin: 0 !important;
+  padding: 0 !important;
+  padding: 5px !important;
+  margin-left: 20% !important;
+  background: #e2e7eb;
+  color: black;
+  font-size: 10px;
+  border: 1px solid gray;
+}
+* .container-fluid .main .form .row6 input,
+* .container-fluid .main .form .row7 input,
+* .container-fluid .main .form .row8 input,
+* .container-fluid .main .form .row9 input {
+  border-left: none;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  height: 80%;
+  padding: 5px !important;
+  width: 260px;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 3px;
+}
+* .container-fluid .main .form .row11 {
+  height: 53px;
+  line-height: 50px;
+}
+* .container-fluid .main .form .row11 p {
+  font-size: 16px;
+}
+* .container-fluid .main .form .row11 a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #007bff;
+  transition: 0.6s;
+}
+* .container-fluid .main .form .row11 a:hover {
+  font-size: 22px;
+  letter-spacing: 1.8px;
+}/*# sourceMappingURL=style.css.map */
